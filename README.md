@@ -27,3 +27,8 @@ Our system aims to address these challenges by providing detailed shoe(s)
 information such as sales, stock level management, supplier alerts all in real time.
 This will help our customers make informed decisions regarding day-to-day 
 operations and better effectively improve their businesses
+
+### Dotenv
+- `npm install --save @react-native-dotenv/cli
+`
+

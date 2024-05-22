@@ -1,5 +1,6 @@
 // server.js
 require('dotenv').config()
+const cors = require("cors");
 const express = require('express');
 const bodyParser = require('body-parser');
 const { Pool } = require('pg');
@@ -7,6 +8,7 @@ const { Pool } = require('pg');
 const app = express();
 const port = 3000;
 
+app.use(cors());
 app.use(bodyParser.json());
 
 console.log(process.env.DB_PORT);
